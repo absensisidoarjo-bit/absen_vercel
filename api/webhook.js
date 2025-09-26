@@ -65,7 +65,7 @@ export default async function handler(req, res) {
     const GAS =
       process.env.GAS_VALIDATE_URL ||
       process.env.APP_SCRIPT_URL ||
-      "https://script.google.com/macros/s/AKfycbzjYLOPjkm8GvbxCgLFbysK16n1nh6YRTgmKFn7oQTGfNSS9t85JkXwfoAXEHkHbEvVXg/exec";
+      "https://script.google.com/macros/s/AKfycbx__tJ6r4cy4_qWWe64ARYa9CNI9qlmctZ8WvsKWIk7SmOPLhXHN_oUAEPM_Y2mpi6Hxw/exec";
 
     const qs = new URLSearchParams({
       action: "absen",
